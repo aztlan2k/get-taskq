@@ -1,0 +1,22 @@
+{
+  "name": "get-taskq",
+  "version": "1.0.0",
+  "description": "Retrieve and display task queues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Ricardo Contreras",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^3.5.5",
+    "commander": "^2.9.0",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^3.0.2"
+  }
+}
